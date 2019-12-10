@@ -1,0 +1,50 @@
+$heightMenu: 66px;
+@import "responsive";
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16p;
+    line-height: 1.4;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+  
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+  
+.site-content {
+    padding-top: $heightMenu;
+}
+  
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $heightMenu;
+    line-height: $heightMenu;
+    color: #FFF;
+    background-color: #2e7d32; 
+}
+  
+.header__logo {
+    font-weight: bold;
+    padding: 0 25px;
+    float: left; 
+}
+  
+.menu {
+    float: left; 
+}
+  
+.menu {
+    padding: 0 10px; 
+}
+  
+.menu :hover {
+    color: #c6ff00; 
+}
+  
